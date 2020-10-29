@@ -1,0 +1,43 @@
+img {
+    max-width: 200px;
+}
+
+li {
+    float: left;
+    list-style: none;
+    padding: 21px;
+}
+
+nav {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    float: left;
+    padding: 21px;
+}
+
+.second {
+    background-color: lightgray;
+    width: 100%;
+}
+
+.title {
+    float: unset;
+    padding: 90px;
+    font-weight: 900;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.personaje {
+    padding: right;
+}
