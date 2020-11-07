@@ -2,14 +2,10 @@
     max-width: 200px;
 }
 
-.firstli {
+.headerList {
     float: left;
     list-style: none;
     padding: 21px;
-}
-
-.secundli {
-    list-style: none;
 }
 
 nav {
@@ -114,12 +110,32 @@ a.aaa {
     text-align: right;
 }
 
-.jjjjj {
-    display: flex;
+.textObj {
+    font-weight: 600;
 }
 
-.ul {
-    width: 100%;
+.strongContainer {
+    width: 60%;
+    background-color: beige;
     display: flex;
-    list-style: circle;
+    padding-left: 20px;
+}
+
+.negritaTextContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.negritaText {
+    font-weight: bold;
+}
+
+.leftColor {
+    width: 80%;
+    border-left: 16px solid blue;
+    padding-left: 10px;
+}
+
+.imggg {
+    max-width: 60%;
 }
