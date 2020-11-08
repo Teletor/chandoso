@@ -209,3 +209,21 @@ body {
 .lastDiv {
     margin-top: 10px;
 }
+.pOfFooter {
+    font-size: 10px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: center;
+}
+.fo1 {
+    padding-right: 5px;
+    border-right: 1px solid burlywood
+}
+.divInFooter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
