@@ -55,7 +55,7 @@ section {
 }
 
 .alejandraImg {
-    max-width: 50px;
+    max-width: 100px;
     /* se utiliza para definir formato en circulo o elipse */
     border-radius: 50%;
 }
@@ -141,6 +141,12 @@ a.aaa {
     border-left: 16px solid blue;
     padding-left: 10px;
 }
+.leftColorMore {
+    width: 80%;
+    border-left: 16px solid blue;
+    padding-left: 10px;
+    border-bottom: 2px solid burlywood;
+}
 
 .imggg {
     max-width: 60%;
@@ -178,4 +184,28 @@ xmp {
 .five {
     background-color: beige;
     padding-bottom: 10px;
+}
+body {
+    padding-bottom: 100px;
+}
+.code6 {
+    background-color: beige;
+}
+.code7 {
+    background-color: beige;
+}
+.img7 {
+    max-width: 60%;
+}
+.code8 {
+    background-color: beige;
+}
+
+.example10 {
+    background-color: darkgray;
+    max-width: 50%
+    
+} 
+.lastDiv {
+    margin-top: 10px;
 }
