@@ -14,11 +14,13 @@ nav {
 
 a {
     text-decoration: none;
+    font-family: Roboto;
 }
 
 p {
     float: left;
     padding: 21px;
+font-family: Roboto;
 }
 
 .second {
@@ -53,7 +55,7 @@ section {
 }
 
 .alejandraImg {
-    max-width: 50px;
+    max-width: 100px;
     /* se utiliza para definir formato en circulo o elipse */
     border-radius: 50%;
 }
@@ -124,10 +126,14 @@ a.aaa {
 .negritaTextContainer {
     display: flex;
     flex-direction: column;
+    padding: 0;
 }
 
 .negritaText {
     font-weight: bold;
+    
+    max-height: 20px;
+    padding: 0;
 }
 
 .leftColor {
@@ -135,7 +141,89 @@ a.aaa {
     border-left: 16px solid blue;
     padding-left: 10px;
 }
+.leftColorMore {
+    width: 80%;
+    border-left: 16px solid blue;
+    padding-left: 10px;
+    border-bottom: 2px solid burlywood;
+}
 
 .imggg {
     max-width: 60%;
+}
+.textA {
+    width: 100%;
+
+}
+.codee {
+    background-color: beige;
+}
+.text1 {
+   
+    padding: 0;
+    
+}
+p {
+    padding: 0;
+    font-family: Roboto;
+}
+h1 {
+    padding: 0;
+    
+    margin: 0;
+}
+xmp {
+    
+    padding: 0;
+    margin: 0;
+    
+}
+.containerFive {
+    font-weight: bold;
+}
+.five {
+    background-color: beige;
+    padding-bottom: 10px;
+}
+body {
+    padding-bottom: 100px;
+}
+.code6 {
+    background-color: beige;
+}
+.code7 {
+    background-color: beige;
+}
+.img7 {
+    max-width: 60%;
+}
+.code8 {
+    background-color: beige;
+}
+
+.example10 {
+    background-color: darkgray;
+    max-width: 50%
+    
+} 
+.lastDiv {
+    margin-top: 10px;
+}
+.pOfFooter {
+    font-size: 10px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: center;
+}
+.fo1 {
+    padding-right: 5px;
+    border-right: 1px solid burlywood
+}
+.divInFooter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
