@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=10, initial-scale=1.0" />
     <title>10 Códigos HTML Básicos</title>
     <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -167,7 +169,7 @@
         <p class="negritaText">Este texto va en negritas</p>
         <p>¡Inténtalo tú mismo! Inserta el código anterior en un <a
                 href="https://codebeautify.org/htmlviewer/">visualizador HTML</a> </p>
-        <p>
+        <p class="text2">
             Como seguro habrás notado, la etiqueta inicial sirve para definir el comportamiento del contenido (por
             ejemplo, si un texto irá en negritas o si tendrá un tamaño específico), y la de cierre le indica al
             navegador hasta dónde debe llegar ese comportamiento.
@@ -180,7 +182,8 @@
         </div>
 
         <p>
-            Cabe destacar que no todas las etiquetas necesitan forzosamente un “cierre”. Por ejemplo, el código <br>
+            Cabe destacar que <strong>todas las etiquetas necesitan forzosamente un “cierre”.</strong> Por ejemplo, el
+            código <br>
             para introducir saltos de línea es considerado un “elemento vacío” y puede ir por sí solo en cualquier parte
             del cuerpo del texto. <br>
             <br> Para la creación de sitios web completos, usar documentos HTML te permitirá tener organizados en un
@@ -199,7 +202,9 @@
         </p>
         <h1>1. HTML</h1>
         <p>
-            html> está al inicio de un documento HTML e indica a los navegadores que la página tiene código HTML para
+            &lt;html &gt; está al inicio de un documento <strong>HTML</strong> e indica a los navegadores que la página
+            tiene código HTML
+            para
             que pueda leerlo de esa forma. Siguiendo la sintaxis del lenguaje, la etiqueta de cierre /html> será el
             último elemento del documento.
         </p>
@@ -259,21 +264,14 @@
 </p>
 
 <h1>5. Títulos y subtítulos</h1>
-<p>
-    <span>
-        <xmp>
-            <h1>
-                <h1>
-                    <h2>... <h6>
-        </xmp>
-    </span>
-
-    son etiquetas que funcionan para agregar títulos y subtítulos en el cuerpo del texto, lo cual ayuda
+<p class="containerFive">
+    &lt;h1&gt; &lt;h2...&gt; &lt;h6&gt; son etiquetas que funcionan para agregar títulos y subtítulos en el cuerpo del
+    texto, lo cual ayuda
     a jerarquizar la información. Por cierto, te recomendamos utilizar la etiqueta H1 sólo una vez
     dentro dedd contenido. <br>
     <br> Ejemplo:
 </p>
-<xmp>
+<xmp class="five">
     <h1>Esta es una etiqueta H1. Utilízala en el título.</h1>
     <h2>Esta es una etiqueta H2. Utilízala en los encabezados de secciones.</h2>
     <h3>Esta es una etiqueta H3. Utilízala en sub-secciones.</h3>
@@ -283,7 +281,15 @@
 </xmp>
 
 <h3>Resultado:</h3>
-<img class="imggg" src="./assets/add2.png">
+<!-- <img class="imggg" src="./assets/add2.png"> -->
+<div>
+    <h1>Esta es una etiqueta H1. Utilízala en el título.</h1>
+    <h2>Esta es una etiqueta H2. Utilízala en los encabezados de secciones.</h2>
+    <h3>Esta es una etiqueta H3. Utilízala en sub-secciones.</h3>
+    <h4>Esta es una etiqueta H4. No se usan muy a menudo.</h4>
+    <h5>Esta es una etiqueta H5.</h5>
+    <h6>Esta es una etiqueta H6.</h6>
+</div>
 <h1>6. Párrafos</h1>
 
 
