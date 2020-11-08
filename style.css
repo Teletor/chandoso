@@ -124,10 +124,14 @@ a.aaa {
 .negritaTextContainer {
     display: flex;
     flex-direction: column;
+    padding: 0;
 }
 
 .negritaText {
     font-weight: bold;
+    background-color: red;
+    max-height: 20px;
+    padding: 0;
 }
 
 .leftColor {
@@ -144,4 +148,11 @@ a.aaa {
 }
 .codee {
     background-color: beige;
+}
+.text1 {
+    background-color: blue;
+    padding: 0;
+}
+p {
+    padding: 0;
 }
